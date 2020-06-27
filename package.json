@@ -4,11 +4,11 @@
   "description": "A mini library for generating keys.",
   "main": "app.js",
   "scripts": {
-    "build": "scripts\\build.bat",
-    "test": "scripts\\test.bat",
-    "lint": "scripts\\lint.bat",
-    "release": "scripts\\release.bat",
-    "git": "scripts\\git.bat"
+    "build": "scripts/build.sh",
+    "test": "scripts/test.sh",
+    "lint": "scripts/lint.sh",
+    "release": "scripts/release.sh",
+    "git": "scripts/git.sh"
   },
   "keywords": [
     "key",
