@@ -1,4 +1,6 @@
 @echo off
+git add -A
+git commit -m %1
 npm version patch -m %1
 npm publish
 git add -A
