@@ -1,4 +1,4 @@
-const key = require('../src/ts-out/app')
+const key = require('../dist/app')
 
 describe('Generate Functionality Test', () => {
     it('should return a key with length 16', () => {

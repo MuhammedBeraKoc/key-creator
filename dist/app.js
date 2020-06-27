@@ -8,7 +8,7 @@ var ASCII_SYMBOL_INDICES = [[33, 47], [58, 64], [91, 96]];
  * and string ASCII conversion methods.
  */
 var ASCII_SYMBOL_SET = (function () {
-    var symbolArray = new Array();
+    var symbolArray = [];
     ASCII_SYMBOL_INDICES.forEach(function (setIndex) {
         for (var i = setIndex[0]; i <= setIndex[1]; ++i)
             symbolArray.push(String.fromCharCode(i));

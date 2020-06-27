@@ -1,10 +1,10 @@
 {
   "name": "key-creator",
   "version": "1.3.3",
-  "description": "A mini library for generating secure keys.",
+  "description": "A mini library for generating keys.",
   "main": "app.js",
   "scripts": {
-    "compile": "scripts\\compile.bat",
+    "build": "scripts\\build.bat",
     "test": "scripts\\test.bat",
     "lint": "scripts\\lint.bat",
     "release": "scripts\\release.bat"
@@ -18,7 +18,15 @@
     "well-documented",
     "robust"
   ],
-  "author": "thankfulbird",
+  "author": {
+    "name": "Muhammed Bera Koc",
+    "email": "berakoc97@gmail.com",
+    "url": "https://github.com/MuhammedBeraKoc"
+  },
+  "repository": "https://github.com/MuhammedBeraKoc/key-creator",
+  "bugs": {
+    "url": "https://github.com/MuhammedBeraKoc/key-creator/issues"
+  },
   "license": "AGPL-3.0",
   "dependencies": {},
   "devDependencies": {
