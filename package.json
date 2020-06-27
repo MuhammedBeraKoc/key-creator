@@ -7,7 +7,8 @@
     "build": "scripts\\build.bat",
     "test": "scripts\\test.bat",
     "lint": "scripts\\lint.bat",
-    "release": "scripts\\release.bat"
+    "release": "scripts\\release.bat",
+    "git": "scripts\\git.bat"
   },
   "keywords": [
     "key",
